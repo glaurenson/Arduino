@@ -1,0 +1,23 @@
+<definition width="130" version="0.4" hotspot_x="65" hotspot_y="102" height="230" link_type="simple" type="element" orientation="dyyy">
+    <names>
+        <name lang="fr">Bluetooth Slave HC-06</name>
+    </names>
+    <informations></informations>
+    <description>
+        <input x="-80" y="-270" size="9" rotate="true" text="_" tagg="none"/>
+        <input x="-22" y="78" size="8" rotate="true" text="GND" tagg="none"/>
+        <input x="-2" y="78" size="8" rotate="true" text="TXD" tagg="none"/>
+        <input x="-42" y="78" size="8" rotate="true" text="VCC" tagg="none"/>
+        <rect width="120" x="-60" y="-100" antialias="false" height="200" style="line-style:normal;line-weight:normal;filling:none;color:black"/>
+        <input x="-29" y="-44.5" size="18" rotate="true" text="HC-06" tagg="label"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="90" x1="-10" y2="120" x2="-10"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="90" x1="10" y2="120" x2="10"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="90" x1="-30" y2="120" x2="-30"/>
+        <line length1="1.5" length2="1.5" antialias="false" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" y1="90" x1="30" y2="120" x2="30"/>
+        <input x="18" y="79" size="8" rotate="true" text="RXD" tagg="none"/>
+        <terminal x="30" y="120" orientation="n"/>
+        <terminal x="10" y="120" orientation="n"/>
+        <terminal x="-10" y="120" orientation="n"/>
+        <terminal x="-30" y="120" orientation="n"/>
+    </description>
+</definition>
