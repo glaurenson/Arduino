@@ -1,3 +1,5 @@
+// Commentaire de test pour GIT
+
 const int BP  = 2;
 const int LED = 5;
 
