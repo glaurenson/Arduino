@@ -14,178 +14,168 @@
     <diagram title="" displayrows="true" version="0.4" cols="17" folio="%id/%total" displaycols="true" height="660" colsize="60" order="1" rows="8" author="" filename="" date="null" rowsize="80">
         <defaultconductor num="_" vertirotatetext="270" displaytext="1" type="multi" horizrotatetext="0" numsize="7" onetextperfolio="0"/>
         <elements>
-            <element x="340" y="460" type="embed://import/00automatisme/domotique/knx/poussoirs/knx_009.elmt" uuid="{bf9993ca-52e7-4671-959c-3b80b8867914}" orientation="0">
+            <element x="500" y="400" type="embed://import/16semiconducteurs/diodes/diode_led.elmt" uuid="{ecceedfa-8b4e-4f57-ba53-bd4ec8802685}" orientation="0">
                 <terminals>
-                    <terminal x="-16" y="10" nameHidden="0" number="_" id="0" name="_" orientation="3"/>
-                    <terminal x="-16" y="0" nameHidden="0" number="_" id="1" name="_" orientation="3"/>
-                    <terminal x="-16" y="-10" nameHidden="0" number="_" id="2" name="_" orientation="3"/>
-                    <terminal x="16" y="0" nameHidden="0" number="_" id="3" name="_" orientation="1"/>
-                    <terminal x="16" y="10" nameHidden="0" number="_" id="4" name="_" orientation="1"/>
-                    <terminal x="16" y="-10" nameHidden="0" number="_" id="5" name="_" orientation="1"/>
-                    <terminal x="-10" y="11" nameHidden="0" number="_" id="6" name="_" orientation="2"/>
-                    <terminal x="0" y="-11" nameHidden="0" number="_" id="7" name="_" orientation="0"/>
-                    <terminal x="10" y="-11" nameHidden="0" number="_" id="8" name="_" orientation="0"/>
-                    <terminal x="-10" y="-11" nameHidden="0" number="_" id="9" name="_" orientation="0"/>
-                    <terminal x="0" y="11" nameHidden="0" number="_" id="10" name="_" orientation="2"/>
-                    <terminal x="10" y="11" nameHidden="0" number="_" id="11" name="_" orientation="2"/>
+                    <terminal x="0" y="-17" nameHidden="0" number="_" id="0" name="_" orientation="0"/>
+                    <terminal x="0" y="17" nameHidden="0" number="_" id="1" name="_" orientation="2"/>
                 </terminals>
                 <inputs>
-                    <input x="9" y="0.5" text="4"/>
+                    <input x="7.75" y="3" text="_"/>
+                </inputs>
+            </element>
+            <element x="180" y="140" type="embed://import/16semiconducteurs/arduino/arduino_uno.elmt" uuid="{68750bc2-3ed2-472d-b685-fbe0d4efffff}" orientation="0">
+                <terminals>
+                    <terminal x="146" y="40" nameHidden="0" number="_" id="2" name="_" orientation="1"/>
+                    <terminal x="146" y="210" nameHidden="0" number="_" id="3" name="_" orientation="1"/>
+                    <terminal x="146" y="50" nameHidden="0" number="_" id="4" name="_" orientation="1"/>
+                    <terminal x="146" y="60" nameHidden="0" number="_" id="5" name="_" orientation="1"/>
+                    <terminal x="146" y="70" nameHidden="0" number="_" id="6" name="_" orientation="1"/>
+                    <terminal x="146" y="80" nameHidden="0" number="_" id="7" name="_" orientation="1"/>
+                    <terminal x="146" y="90" nameHidden="0" number="_" id="8" name="_" orientation="1"/>
+                    <terminal x="146" y="120" nameHidden="0" number="_" id="9" name="_" orientation="1"/>
+                    <terminal x="146" y="110" nameHidden="0" number="_" id="10" name="_" orientation="1"/>
+                    <terminal x="146" y="100" nameHidden="0" number="_" id="11" name="_" orientation="1"/>
+                    <terminal x="146" y="130" nameHidden="0" number="_" id="12" name="_" orientation="1"/>
+                    <terminal x="146" y="140" nameHidden="0" number="_" id="13" name="_" orientation="1"/>
+                    <terminal x="146" y="150" nameHidden="0" number="_" id="14" name="_" orientation="1"/>
+                    <terminal x="146" y="160" nameHidden="0" number="_" id="15" name="_" orientation="1"/>
+                    <terminal x="146" y="170" nameHidden="0" number="_" id="16" name="_" orientation="1"/>
+                    <terminal x="146" y="200" nameHidden="0" number="_" id="17" name="_" orientation="1"/>
+                    <terminal x="146" y="190" nameHidden="0" number="_" id="18" name="_" orientation="1"/>
+                    <terminal x="146" y="180" nameHidden="0" number="_" id="19" name="_" orientation="1"/>
+                    <terminal x="-6" y="70" nameHidden="0" number="_" id="20" name="_" orientation="3"/>
+                    <terminal x="-6" y="160" nameHidden="0" number="_" id="21" name="_" orientation="3"/>
+                    <terminal x="-6" y="170" nameHidden="0" number="_" id="22" name="_" orientation="3"/>
+                    <terminal x="-6" y="180" nameHidden="0" number="_" id="23" name="_" orientation="3"/>
+                    <terminal x="-6" y="190" nameHidden="0" number="_" id="24" name="_" orientation="3"/>
+                    <terminal x="-6" y="200" nameHidden="0" number="_" id="25" name="_" orientation="3"/>
+                    <terminal x="-6" y="210" nameHidden="0" number="_" id="26" name="_" orientation="3"/>
+                    <terminal x="-6" y="80" nameHidden="0" number="_" id="27" name="_" orientation="3"/>
+                    <terminal x="-6" y="90" nameHidden="0" number="_" id="28" name="_" orientation="3"/>
+                    <terminal x="-6" y="100" nameHidden="0" number="_" id="29" name="_" orientation="3"/>
+                    <terminal x="-6" y="110" nameHidden="0" number="_" id="30" name="_" orientation="3"/>
+                    <terminal x="-6" y="120" nameHidden="0" number="_" id="31" name="_" orientation="3"/>
+                    <terminal x="-6" y="130" nameHidden="0" number="_" id="32" name="_" orientation="3"/>
+                    <terminal x="-6" y="140" nameHidden="0" number="_" id="33" name="_" orientation="3"/>
+                    <terminal x="10" y="-16" nameHidden="0" number="_" id="34" name="_" orientation="0"/>
+                    <terminal x="110" y="-16" nameHidden="0" number="_" id="35" name="_" orientation="0"/>
+                </terminals>
+                <inputs>
+                    <input x="-3" y="104" text="3.3V"/>
+                    <input x="-3" y="104" text="3.3V"/>
+                    <input x="-3" y="124" text="GND"/>
+                    <input x="-3" y="124" text="GND"/>
+                    <input x="-3" y="133" text="GND"/>
+                    <input x="-3" y="133" text="GND"/>
+                    <input x="-2" y="144" text="Vin"/>
+                    <input x="-2" y="144" text="Vin"/>
+                    <input x="17" y="169" text="ANALOG IN"/>
+                    <input x="17" y="169" text="ANALOG IN"/>
+                    <input x="18" y="112" text="POWER"/>
+                    <input x="18" y="112" text="POWER"/>
+                    <input x="-3" y="93" text="RESET"/>
+                    <input x="-3" y="93" text="RESET"/>
+                    <input x="-3" y="114" text="5V"/>
+                    <input x="-3" y="114" text="5V"/>
+                    <input x="-3" y="84" text="IO ref"/>
+                    <input x="-3" y="84" text="IO ref"/>
+                    <input x="90" y="66" text="RX"/>
+                    <input x="90" y="66" text="RX"/>
+                    <input x="108" y="69" text="L"/>
+                    <input x="108" y="69" text="L"/>
+                    <input x="-2" y="214" text="A5"/>
+                    <input x="-2" y="214" text="A5"/>
+                    <input x="-2" y="204" text="A4"/>
+                    <input x="-2" y="204" text="A4"/>
+                    <input x="-2" y="194" text="A3"/>
+                    <input x="-2" y="194" text="A3"/>
+                    <input x="-2" y="164" text="A0"/>
+                    <input x="-2" y="164" text="A0"/>
+                    <input x="-2" y="184" text="A2"/>
+                    <input x="-2" y="184" text="A2"/>
+                    <input x="-2" y="174" text="A1"/>
+                    <input x="-2" y="174" text="A1"/>
+                    <input x="128" y="123" text="~9"/>
+                    <input x="128" y="123" text="~9"/>
+                    <input x="130" y="94" text="12"/>
+                    <input x="130" y="94" text="12"/>
+                    <input x="122" y="114" text="~10"/>
+                    <input x="122" y="114" text="~10"/>
+                    <input x="114" y="204" text="TX->1"/>
+                    <input x="114" y="204" text="TX->1"/>
+                    <input x="114" y="214" text="RX&lt;-0"/>
+                    <input x="114" y="214" text="RX&lt;-0"/>
+                    <input x="123" y="104" text="~11"/>
+                    <input x="123" y="104" text="~11"/>
+                    <input x="136" y="133" text="8"/>
+                    <input x="136" y="133" text="8"/>
+                    <input x="136" y="173" text="4"/>
+                    <input x="136" y="173" text="4"/>
+                    <input x="136" y="144" text="7"/>
+                    <input x="136" y="144" text="7"/>
+                    <input x="128" y="183" text="~3"/>
+                    <input x="128" y="183" text="~3"/>
+                    <input x="136" y="193" text="2"/>
+                    <input x="136" y="193" text="2"/>
+                    <input x="130" y="83" text="13"/>
+                    <input x="130" y="83" text="13"/>
+                    <input x="117" y="131" text="DIGITAL (PWM~)"/>
+                    <input x="117" y="131" text="DIGITAL (PWM~)"/>
+                    <input x="128" y="163" text="~5"/>
+                    <input x="128" y="163" text="~5"/>
+                    <input x="128" y="154" text="~6"/>
+                    <input x="128" y="154" text="~6"/>
+                    <input x="118" y="63" text="AREF"/>
+                    <input x="118" y="63" text="AREF"/>
+                    <input x="121" y="73" text="GND"/>
+                    <input x="121" y="73" text="GND"/>
+                    <input x="88" y="87" text="ARDUINO"/>
+                    <input x="88" y="87" text="ARDUINO"/>
+                    <input x="95" y="145" text="UNO"/>
+                    <input x="95" y="145" text="UNO"/>
+                    <input x="98" y="66" text="TX"/>
+                    <input x="98" y="66" text="TX"/>
+                    <input x="51" y="135" text="AIMEL"/>
+                    <input x="51" y="135" text="AIMEL"/>
+                    <input x="78" y="169" text="MADE IN ITALY"/>
+                    <input x="78" y="169" text="MADE IN ITALY"/>
                 </inputs>
             </element>
             <element x="500" y="530" type="embed://import/16semiconducteurs/arduino/resistance2.elmt" uuid="{85268317-a6ac-4e27-9abd-07ebb3ee4aad}" orientation="0">
                 <terminals>
-                    <terminal x="0" y="6" nameHidden="0" number="_" id="12" name="_" orientation="2"/>
-                    <terminal x="0" y="-26" nameHidden="0" number="_" id="13" name="_" orientation="0"/>
+                    <terminal x="0" y="6" nameHidden="0" number="_" id="36" name="_" orientation="2"/>
+                    <terminal x="0" y="-26" nameHidden="0" number="_" id="37" name="_" orientation="0"/>
                 </terminals>
                 <inputs>
                     <input x="-14" y="23" text="12"/>
                 </inputs>
             </element>
-            <element x="180" y="140" type="embed://import/16semiconducteurs/arduino/arduino_uno.elmt" uuid="{68750bc2-3ed2-472d-b685-fbe0d4efffff}" orientation="0">
+            <element x="340" y="460" type="embed://import/00automatisme/domotique/knx/poussoirs/knx_009.elmt" uuid="{bf9993ca-52e7-4671-959c-3b80b8867914}" orientation="0">
                 <terminals>
-                    <terminal x="146" y="40" nameHidden="0" number="_" id="14" name="_" orientation="1"/>
-                    <terminal x="146" y="210" nameHidden="0" number="_" id="15" name="_" orientation="1"/>
-                    <terminal x="146" y="50" nameHidden="0" number="_" id="16" name="_" orientation="1"/>
-                    <terminal x="146" y="60" nameHidden="0" number="_" id="17" name="_" orientation="1"/>
-                    <terminal x="146" y="70" nameHidden="0" number="_" id="18" name="_" orientation="1"/>
-                    <terminal x="146" y="80" nameHidden="0" number="_" id="19" name="_" orientation="1"/>
-                    <terminal x="146" y="90" nameHidden="0" number="_" id="20" name="_" orientation="1"/>
-                    <terminal x="146" y="120" nameHidden="0" number="_" id="21" name="_" orientation="1"/>
-                    <terminal x="146" y="110" nameHidden="0" number="_" id="22" name="_" orientation="1"/>
-                    <terminal x="146" y="100" nameHidden="0" number="_" id="23" name="_" orientation="1"/>
-                    <terminal x="146" y="130" nameHidden="0" number="_" id="24" name="_" orientation="1"/>
-                    <terminal x="146" y="140" nameHidden="0" number="_" id="25" name="_" orientation="1"/>
-                    <terminal x="146" y="150" nameHidden="0" number="_" id="26" name="_" orientation="1"/>
-                    <terminal x="146" y="160" nameHidden="0" number="_" id="27" name="_" orientation="1"/>
-                    <terminal x="146" y="170" nameHidden="0" number="_" id="28" name="_" orientation="1"/>
-                    <terminal x="146" y="200" nameHidden="0" number="_" id="29" name="_" orientation="1"/>
-                    <terminal x="146" y="190" nameHidden="0" number="_" id="30" name="_" orientation="1"/>
-                    <terminal x="146" y="180" nameHidden="0" number="_" id="31" name="_" orientation="1"/>
-                    <terminal x="-6" y="70" nameHidden="0" number="_" id="32" name="_" orientation="3"/>
-                    <terminal x="-6" y="160" nameHidden="0" number="_" id="33" name="_" orientation="3"/>
-                    <terminal x="-6" y="170" nameHidden="0" number="_" id="34" name="_" orientation="3"/>
-                    <terminal x="-6" y="180" nameHidden="0" number="_" id="35" name="_" orientation="3"/>
-                    <terminal x="-6" y="190" nameHidden="0" number="_" id="36" name="_" orientation="3"/>
-                    <terminal x="-6" y="200" nameHidden="0" number="_" id="37" name="_" orientation="3"/>
-                    <terminal x="-6" y="210" nameHidden="0" number="_" id="38" name="_" orientation="3"/>
-                    <terminal x="-6" y="80" nameHidden="0" number="_" id="39" name="_" orientation="3"/>
-                    <terminal x="-6" y="90" nameHidden="0" number="_" id="40" name="_" orientation="3"/>
-                    <terminal x="-6" y="100" nameHidden="0" number="_" id="41" name="_" orientation="3"/>
-                    <terminal x="-6" y="110" nameHidden="0" number="_" id="42" name="_" orientation="3"/>
-                    <terminal x="-6" y="120" nameHidden="0" number="_" id="43" name="_" orientation="3"/>
-                    <terminal x="-6" y="130" nameHidden="0" number="_" id="44" name="_" orientation="3"/>
-                    <terminal x="-6" y="140" nameHidden="0" number="_" id="45" name="_" orientation="3"/>
-                    <terminal x="10" y="-16" nameHidden="0" number="_" id="46" name="_" orientation="0"/>
-                    <terminal x="110" y="-16" nameHidden="0" number="_" id="47" name="_" orientation="0"/>
+                    <terminal x="-16" y="10" nameHidden="0" number="_" id="38" name="_" orientation="3"/>
+                    <terminal x="-16" y="0" nameHidden="0" number="_" id="39" name="_" orientation="3"/>
+                    <terminal x="-16" y="-10" nameHidden="0" number="_" id="40" name="_" orientation="3"/>
+                    <terminal x="16" y="0" nameHidden="0" number="_" id="41" name="_" orientation="1"/>
+                    <terminal x="16" y="10" nameHidden="0" number="_" id="42" name="_" orientation="1"/>
+                    <terminal x="16" y="-10" nameHidden="0" number="_" id="43" name="_" orientation="1"/>
+                    <terminal x="-10" y="11" nameHidden="0" number="_" id="44" name="_" orientation="2"/>
+                    <terminal x="0" y="-11" nameHidden="0" number="_" id="45" name="_" orientation="0"/>
+                    <terminal x="10" y="-11" nameHidden="0" number="_" id="46" name="_" orientation="0"/>
+                    <terminal x="-10" y="-11" nameHidden="0" number="_" id="47" name="_" orientation="0"/>
+                    <terminal x="0" y="11" nameHidden="0" number="_" id="48" name="_" orientation="2"/>
+                    <terminal x="10" y="11" nameHidden="0" number="_" id="49" name="_" orientation="2"/>
                 </terminals>
                 <inputs>
-                    <input x="-3" y="104" text="3.3V"/>
-                    <input x="-3" y="104" text="3.3V"/>
-                    <input x="-3" y="124" text="GND"/>
-                    <input x="-3" y="124" text="GND"/>
-                    <input x="-3" y="133" text="GND"/>
-                    <input x="-3" y="133" text="GND"/>
-                    <input x="-2" y="144" text="Vin"/>
-                    <input x="-2" y="144" text="Vin"/>
-                    <input x="17" y="169" text="ANALOG IN"/>
-                    <input x="17" y="169" text="ANALOG IN"/>
-                    <input x="18" y="112" text="POWER"/>
-                    <input x="18" y="112" text="POWER"/>
-                    <input x="-3" y="93" text="RESET"/>
-                    <input x="-3" y="93" text="RESET"/>
-                    <input x="-3" y="114" text="5V"/>
-                    <input x="-3" y="114" text="5V"/>
-                    <input x="-3" y="84" text="IO ref"/>
-                    <input x="-3" y="84" text="IO ref"/>
-                    <input x="90" y="66" text="RX"/>
-                    <input x="90" y="66" text="RX"/>
-                    <input x="108" y="69" text="L"/>
-                    <input x="108" y="69" text="L"/>
-                    <input x="-2" y="214" text="A5"/>
-                    <input x="-2" y="214" text="A5"/>
-                    <input x="-2" y="204" text="A4"/>
-                    <input x="-2" y="204" text="A4"/>
-                    <input x="-2" y="194" text="A3"/>
-                    <input x="-2" y="194" text="A3"/>
-                    <input x="-2" y="164" text="A0"/>
-                    <input x="-2" y="164" text="A0"/>
-                    <input x="-2" y="184" text="A2"/>
-                    <input x="-2" y="184" text="A2"/>
-                    <input x="-2" y="174" text="A1"/>
-                    <input x="-2" y="174" text="A1"/>
-                    <input x="128" y="123" text="~9"/>
-                    <input x="128" y="123" text="~9"/>
-                    <input x="130" y="94" text="12"/>
-                    <input x="130" y="94" text="12"/>
-                    <input x="122" y="114" text="~10"/>
-                    <input x="122" y="114" text="~10"/>
-                    <input x="114" y="204" text="TX->1"/>
-                    <input x="114" y="204" text="TX->1"/>
-                    <input x="114" y="214" text="RX&lt;-0"/>
-                    <input x="114" y="214" text="RX&lt;-0"/>
-                    <input x="123" y="104" text="~11"/>
-                    <input x="123" y="104" text="~11"/>
-                    <input x="136" y="133" text="8"/>
-                    <input x="136" y="133" text="8"/>
-                    <input x="136" y="173" text="4"/>
-                    <input x="136" y="173" text="4"/>
-                    <input x="136" y="144" text="7"/>
-                    <input x="136" y="144" text="7"/>
-                    <input x="128" y="183" text="~3"/>
-                    <input x="128" y="183" text="~3"/>
-                    <input x="136" y="193" text="2"/>
-                    <input x="136" y="193" text="2"/>
-                    <input x="130" y="83" text="13"/>
-                    <input x="130" y="83" text="13"/>
-                    <input x="117" y="131" text="DIGITAL (PWM~)"/>
-                    <input x="117" y="131" text="DIGITAL (PWM~)"/>
-                    <input x="128" y="163" text="~5"/>
-                    <input x="128" y="163" text="~5"/>
-                    <input x="128" y="154" text="~6"/>
-                    <input x="128" y="154" text="~6"/>
-                    <input x="118" y="63" text="AREF"/>
-                    <input x="118" y="63" text="AREF"/>
-                    <input x="121" y="73" text="GND"/>
-                    <input x="121" y="73" text="GND"/>
-                    <input x="88" y="87" text="ARDUINO"/>
-                    <input x="88" y="87" text="ARDUINO"/>
-                    <input x="95" y="145" text="UNO"/>
-                    <input x="95" y="145" text="UNO"/>
-                    <input x="98" y="66" text="TX"/>
-                    <input x="98" y="66" text="TX"/>
-                    <input x="51" y="135" text="AIMEL"/>
-                    <input x="51" y="135" text="AIMEL"/>
-                    <input x="78" y="169" text="MADE IN ITALY"/>
-                    <input x="78" y="169" text="MADE IN ITALY"/>
-                </inputs>
-            </element>
-            <element x="470" y="450" type="embed://import/00automatisme/domotique/knx/divers/knx_056.elmt" uuid="{e7ccf36e-f7d6-4acc-8c98-b052c40c25d7}" orientation="0">
-                <terminals>
-                    <terminal x="-16" y="10" nameHidden="0" number="_" id="48" name="_" orientation="3"/>
-                    <terminal x="-16" y="0" nameHidden="0" number="_" id="49" name="_" orientation="3"/>
-                    <terminal x="-16" y="-10" nameHidden="0" number="_" id="50" name="_" orientation="3"/>
-                    <terminal x="16" y="0" nameHidden="0" number="_" id="51" name="_" orientation="1"/>
-                    <terminal x="16" y="10" nameHidden="0" number="_" id="52" name="_" orientation="1"/>
-                    <terminal x="16" y="-10" nameHidden="0" number="_" id="53" name="_" orientation="1"/>
-                    <terminal x="-10" y="11" nameHidden="0" number="_" id="54" name="_" orientation="2"/>
-                    <terminal x="0" y="-11" nameHidden="0" number="_" id="55" name="_" orientation="0"/>
-                    <terminal x="10" y="-11" nameHidden="0" number="_" id="56" name="_" orientation="0"/>
-                    <terminal x="-10" y="-11" nameHidden="0" number="_" id="57" name="_" orientation="0"/>
-                    <terminal x="0" y="11" nameHidden="0" number="_" id="58" name="_" orientation="2"/>
-                    <terminal x="10" y="11" nameHidden="0" number="_" id="59" name="_" orientation="2"/>
-                </terminals>
-                <inputs>
-                    <input x="9" y="8.5" text="n"/>
+                    <input x="9" y="0.5" text="4"/>
                 </inputs>
             </element>
         </elements>
         <conductors>
-            <conductor num="_" x="0" vertirotatetext="270" y="0" displaytext="1" terminal1="10" terminal2="44" type="multi" horizrotatetext="0" numsize="7" onetextperfolio="0"/>
-            <conductor num="_" x="0" vertirotatetext="270" y="0" displaytext="1" terminal1="10" terminal2="30" type="multi" horizrotatetext="0" numsize="7" onetextperfolio="0"/>
-            <conductor num="_" x="0" vertirotatetext="270" y="0" displaytext="1" terminal1="49" terminal2="27" type="multi" horizrotatetext="0" numsize="7" onetextperfolio="0"/>
-            <conductor num="_" x="0" vertirotatetext="270" y="0" displaytext="1" terminal1="12" terminal2="44" type="multi" horizrotatetext="0" numsize="7" onetextperfolio="0"/>
-            <conductor num="_" x="0" vertirotatetext="270" y="0" displaytext="1" terminal1="51" terminal2="13" type="multi" horizrotatetext="0" numsize="7" onetextperfolio="0"/>
+            <conductor num="_" x="0" vertirotatetext="270" y="0" displaytext="1" terminal1="0" terminal2="15" type="multi" horizrotatetext="0" numsize="7" onetextperfolio="0"/>
+            <conductor num="_" x="0" vertirotatetext="270" y="0" displaytext="1" terminal1="36" terminal2="32" type="multi" horizrotatetext="0" numsize="7" onetextperfolio="0"/>
+            <conductor num="_" x="0" vertirotatetext="270" y="0" displaytext="1" terminal1="1" terminal2="37" type="multi" horizrotatetext="0" numsize="7" onetextperfolio="0"/>
+            <conductor num="_" x="0" vertirotatetext="270" y="0" displaytext="1" terminal1="48" terminal2="18" type="multi" horizrotatetext="0" numsize="7" onetextperfolio="0"/>
+            <conductor num="_" x="0" vertirotatetext="270" y="0" displaytext="1" terminal1="48" terminal2="32" type="multi" horizrotatetext="0" numsize="7" onetextperfolio="0"/>
         </conductors>
     </diagram>
     <collection>
