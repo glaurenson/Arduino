@@ -8,6 +8,7 @@ int bpState;
 int oldBpState;
 int lastState = 1;
 int i = 0;
+int delayVal = 0;
 
 void setup() {
   pinMode(BP, INPUT);
@@ -17,34 +18,40 @@ void setup() {
 void loop () {
   digitalWrite(BP , HIGH);
   bpState = digitalRead(BP);
-  
   if(bpState != oldBpState) {
     oldBpState = !bpState;
     if(!bpState) {
+      delay(100);
       lastState++;
+      if(lastState > 3) lastState = 1;
       
-      if(lastState > 3) {
-        lastState = 1;
+      int toCalc = 255;
+      switch(lastState) {
+        case 1: toCalc = i; break;
+        case 2: toCalc = abs(20-i); break;
+        case 3: toCalc = abs(255-i); break;
       }
-      oldBpState = bpState;
+      
+      delayVal = (int)(1000/toCalc);
     }
+    oldBpState = bpState;
   }
 
   switch(lastState) {
     case 1 :
-      if(i>0) i--;
+      if(i>0) i-=1;
       break;
       
     case 2 :
-      if(i < 40) i++;
-      if(i > 40) i--;
+      if(i < 20) i+=1;
+      if(i > 20) i-=1;
       break;
-      
+
     case 3 :
-      if(i < 255) i++;
+      if(i < 255) i+=1;
       break;
   }
 
   analogWrite(LED, i);
-  delay(5);
+  delay(delayVal);
 }
