@@ -1,18 +1,8 @@
-#define LED        13
-
-#define THRESHOLD   5
-
-
-
-
+int LED = 13;
+int THRESHOLD = 5;
 int capI;      // interval when sensor pin 5 returns LOW
 
-
-
-
-void setup() 
-
-{
+void setup() {
 
   Serial.begin(9600);
 
@@ -27,9 +17,7 @@ void setup()
 
 
 
-void loop() 
-
-{
+void loop() {
 
   capI = 0;      // clear out capacitance measure at each loop 
 
