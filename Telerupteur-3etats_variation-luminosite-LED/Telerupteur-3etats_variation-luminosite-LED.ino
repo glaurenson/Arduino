@@ -1,46 +1,40 @@
-// Commentaire de test pour GIT
-// Rajout commentaire pour Gary
+#include <CapacitiveSensor.h>
+CapacitiveSensor pad = CapacitiveSensor(8, 9); // 8 > output, 9 > input
 const int LED = 5;
-const int RESIN = 9;
-const int RESOUT = 8;
 
 int bpState;
 int oldBpState;
 int lastState = 1;
 int i = 0;
 int delayVal = 0;
-int capI;
+boolean done = false;
 
 void setup() {
-  pinMode(RESOUT, OUTPUT);     // output pin
-  pinMode(RESIN, INPUT);
+  Serial.begin(9600);
   pinMode(LED, OUTPUT);
 }
 
 void loop () {
-  capI = 0;
-  digitalWrite(RESOUT, HIGH);
-  bpState = digitalRead(RESIN);
+  int val = pad.capacitiveSensor(30);
+  Serial.println(val);
   
-  while (bpState != HIGH) {
-    capI++;
-    bpState = digitalRead(RESIN);    // re-read the input to be checked 
-  }
-  digitalWrite(RESOUT, LOW);
-  
-  if(capI > 5) {
-    delay(100);
-    lastState++;
-    if(lastState > 3) lastState = 1;
-    
-    int toCalc = 255;
-    switch(lastState) {
-      case 1: toCalc = i; break;
-      case 2: toCalc = abs(20-i); break;
-      case 3: toCalc = abs(255-i); break;
+  if(val > 100) {
+    if(!done) {
+      done = true;
+      lastState++;
+      if(lastState > 3) lastState = 1;
+      
+      int toCalc = 255;
+      switch(lastState) {
+        case 1: toCalc = i; break;
+        case 2: toCalc = abs(20-i); break;
+        case 3: toCalc = abs(255-i); break;
+      }
+      
+      delayVal = (int)(1000/toCalc);
     }
-    
-    delayVal = (int)(1000/toCalc);
+  } else {
+    done = false;
   }
 
   switch(lastState) {
